@@ -68,13 +68,13 @@ public class MeusEventosBean {
 			caminho = "C:\\Users\\Bruno\\Downloads\\Faculdade\\Adocao\\src\\main\\webapp\\resources\\imagens\\"
 					+ event.getFile().getFileName();
 
-			// esse trecho grava o arquivo no diretório
+			// esse trecho grava o arquivo no diretï¿½rio
 			FileOutputStream fos = new FileOutputStream(caminho);
 			fos.write(arquivo);
 			fos.close();
 
 			caminho = event.getFile().getFileName();
-			System.out.println("caminho da imagem salva é  = " + caminho);
+			System.out.println("caminho da imagem salva ï¿½  = " + caminho);
 
 		} catch (Exception e) {
 			e.printStackTrace();
